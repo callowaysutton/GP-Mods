@@ -14,6 +14,7 @@ print
 print 'If you start GP from the command line using the "-" switch, you can type ctrl-C
 print 'in this terminal window to manually halt the UI.'
 print '(Unfortunately, this trick does not work on Windows.)'
+print 'If you would like to run the REPEL on Windows go to this directory in the command line and type in ''gp.exe -'''
 print
 print 'When the UI is stopped, you can run commands in this terminal window, such as:'
 print
