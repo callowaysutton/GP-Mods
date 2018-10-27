@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<dict>
+	<key>CFBundleName</key>
+	<string>GP</string>
+	<key>CFBundleExecutable</key>
+	<string>start.sh</string>
+	<key>CFBundleIconFile</key>
+	<string>App</string>
+
+   <key>NSHighResolutionCapable</key><true/>
+
+	<key>CFBundleIdentifier</key>
+	<string>org.gpblocks.GP</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>GP Project File</string>
+			<key>LSHandlerRank</key>
+			<string>Owner</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<!-- GP specific extensions (see UTExportedTypeDeclarations) -->
+			<string>org.gpblocks.gp.gpp</string>
+			</array>
+		</dict>
+
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>Media File</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSHandlerRank</key>
+			<string>Alternate</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>public.data</string>
+			</array>
+		</dict>
+
+	</array>
+
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>org.gpblocks.gp.gpp</string>
+			<key>UTTypeDescription</key>
+			<string>GP Project File</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<string>gpp</string>
+				<key>public.mime-type</key>
+				<string>application/octet-stream</string>
+			</dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+		</dict>
+	</array>
+
+</dict>
+</plist>

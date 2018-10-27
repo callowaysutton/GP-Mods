@@ -1,0 +1,13 @@
+sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get install gcc-multilib
+sudo apt-get install libpangocairo-1.0-0:i386
+sudo apt-get install libasound2:i386
+
+---
+Not needed:
+
+  sudo apt-get install libc6:1386 libncurses5:i386 libstdc++6:i386
+  sudo apt-get install binutils-multiarch
+  uname -a
+  ldd linux_gp 
