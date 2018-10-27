@@ -5,7 +5,7 @@
 // up your own application.
 
 print
-print 'Welcome to GP!'
+print 'Welcome to eGP!'
 print
 print 'This the GP terminal window, used for bootstrapping GP. The GP user'
 print 'interface (UI) runs in its own window, but if the UI loop encounters'
@@ -21,6 +21,5 @@ print '  inspect (list 1 2 3) - inspect an object'
 print '  go - restart the user interface'
 
 to startup {
-  showKeyboard 1
   go
 }
