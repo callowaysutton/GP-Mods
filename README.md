@@ -1,18 +1,7 @@
-# GP-Mods
+# eGP
 
-The GP Blocks programming system in a form that is easy to fork and modify.
-
-GP is a "general purpose" blocks programming system similar to Scratch, but
-with  extended features such as the ability to work with pixel and sound data,
-process data, or build games and applications. What's more, GP can turn anything
-you build into an application.
-
-## Creating a Mod
-
-To make your own GP mod, first create a (free!) Github account if you don't already have one.
-Then click the "Fork" button in the top-right corner of this repository. That will create
-your own fork on Github. If you wish, rename your fork by clicking on the "Settings"
-tab in your fork. Finally, clone your repository on your own computer and start modding!
+eGP is a mod of the original GP application that allows the full functionality and extended functions such as bigNums, bigMult, 16:9 aspect ratio, and more.
+eGP stands for Extended GP because of all the black additions.
 
 ## How GP Works
 
@@ -39,7 +28,7 @@ defined in runtime/startup.gp.
 GP can also be run in interactive mode by typing:
 
 ```
-gp-win -
+egp-win -
 ```
 
 When started in interactive mode, GP doesn't read runtime/startup.gp or run the "startup" function.
@@ -55,7 +44,7 @@ You can run commands such as:
 
 ```
 exit - quit GP
-help - print a list of primitive operations built into GP
+help - print a list of primitive operations built into eGP
 print (3 + 4) - print the result of an expression
 inspect (list 1 2 3) - inspect an object
 go - restart the user interface
@@ -76,9 +65,7 @@ creating accounts, we had to disable automatic account creation; just drop an em
 ## Based on GP...
 
 To avoid potential confusion with the original GP, which is used by students and educators
-around the world, your mod should be named something other than simply "GP" or "GP Blocks,
-and it should avoid displaying the original GP logo. You are  welcome to use the "GP Mod"
-logo and encouraged to use the phrase "Based on GP" in your mod's title or about box.
+around the world, this modification is called eGP.
 
 ## License
 
