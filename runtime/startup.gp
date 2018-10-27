@@ -1,13 +1,13 @@
-// This GP file is run after the GP library has been loaded.
+// This eGP file is run after the eGP library has been loaded.
 // By default, it just prints a welcome message and a few lines
 // of help, then runs "startScripting", which starts up the GUI.
-// However, you can replace that code with GP commands to start
+// However, you can replace that code with eGP commands to start
 // up your own application.
 
 print
 print 'Welcome to eGP!'
 print
-print 'This the GP terminal window, used for bootstrapping GP. The GP user'
+print 'This the eGP terminal window, used for bootstrapping GP. The eGP user'
 print 'interface (UI) runs in its own window, but if the UI loop encounters'
 print 'an error it cannot handle, it stops and this window takes over.'
 print
